@@ -6,7 +6,7 @@ Build a Node.js command-line applicaiotn that takes in infiramtion about employe
 https://drive.google.com/file/d/139gL1nyIV57QKig0J_WjhUor52vv_bJx/view
 
 ## Screenshot
-![ScreenShot](./util/Screen%20Shot%202022-10-26%20at%202.09.25%20PM.png)
+![team-profile-generator webpage](./util/Screen%20Shot%202022-10-26%20at%202.09.25%20PM.png)
 
 ## Questions
 GitHub(https://github.com/liyuanSilviaZhao)
