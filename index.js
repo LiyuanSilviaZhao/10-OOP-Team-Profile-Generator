@@ -8,7 +8,10 @@ const Engineer = require("./lib/Engineer");
 const Intern = require("./lib/Intern");
 const Manager = require("./lib/Manager");
 
+//creat a team members array
 const team =[];
+
+//using inquirer to prompt questions
 function askQuestion() {
     console.log("Please build your team.");
 
@@ -44,7 +47,7 @@ function askQuestion() {
         const manager = new Manager (employeeName, id, email, officeNum);
         console.log(manager);
         team.push(manager);
-
+        //check the addMember chosen options 
         switch (answers.addMember) {
             case "Engineer":
                 console.log("add Engineer!")
@@ -64,6 +67,7 @@ function askQuestion() {
     })
 }
 
+//adding an Engineer member 
 function addEngineer() {
     inquirer.prompt([{
         type: 'input',
@@ -96,7 +100,8 @@ function addEngineer() {
     engineer = new Engineer(name,id,email,github);
     console.log(engineer);
     team.push(engineer);
-
+    
+    //check the addMember chosen options 
     switch (answers.addMember) {
         case "Engineer":
             console.log("add Engineer!")
@@ -116,6 +121,7 @@ function addEngineer() {
 })
 }
 
+//adding an Intern member
 function addIntern() {
     inquirer.prompt([{
         type: 'input',
@@ -148,7 +154,8 @@ function addIntern() {
         intern = new Intern(name,id,email,school);
         console.log(intern);
         team.push(intern);
-
+    
+    //check the addMember chosen options 
     switch (answers.addMember) {
         case "Engineer":
             console.log("add Engineer!")
@@ -170,6 +177,7 @@ function addIntern() {
 })
 }
 
+//create a html file by using the generateHtml.js with input data  
 function buildHtml(){
     console.log("output team:")
     console.log(team);

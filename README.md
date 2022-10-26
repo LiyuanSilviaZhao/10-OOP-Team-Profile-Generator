@@ -3,8 +3,7 @@ Build a Node.js command-line applicaiotn that takes in infiramtion about employe
 
 
 ## Demo Video
-https://drive.google.com/file/d/139gL1nyIV57QKig0J_WjhUor52vv_bJx/view
-
+https://drive.google.com/file/d/1azz4Ct4Xz4J6sjNNJeliZZM7Kz50DDTy/view
 ## Screenshot
 ![team-profile-generator webpage](./util/Screen%20Shot%202022-10-26%20at%202.09.25%20PM.png)
 
